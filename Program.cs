@@ -4,14 +4,11 @@
 // m = 3, n = 2 -> A(m,n) = 29
 
 
-
-// вызов функции Аккермана
 void AkkermanFunction(int m, int n)
 {
     Console.Write(Akkerman(m, n)); 
 }
 
-// функция Аккермана
 int Akkerman(int m, int n)
 {
     if (m == 0)
